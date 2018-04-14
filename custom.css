@@ -1,0 +1,110 @@
+body {
+background-color: black;
+background-image: url(imgs/background.png);
+background-repeat: repeat;
+padding: 5px;
+}
+
+div.logoheader {
+margin:auto;
+width: 90%;
+padding: 5px;
+border: 2px solid #FFFFFF;
+}
+
+img.logo {
+margin:auto;
+width: 100%;
+height: 35%;
+}
+
+#topmargin {
+margin-top: 10%;
+background-color: powderblue;
+}
+
+div.textbodyborder {
+padding-top: 15px;
+margin:auto;
+width: 90%;
+background-color: rgba(0,0,0,0);
+border: 2px solid #FFFFFF;
+height:400px;
+}
+
+div.textbody {
+margin:auto;
+width: 95%;
+padding: 20px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+color: #FFFFFF;
+font-size: 13pt;
+background-color: rgba(50,100,128,0.8);
+overflow: scroll;
+height: 95%;
+}
+
+a.custom {
+color: deepskyblue;
+font-weight: bolder;
+padding: 2px;
+border: 1px solid transparent;
+}
+
+a.custom:hover {
+text-decoration: none;
+border: 1px solid white;
+}
+
+table.yearbook {
+width: 95%;
+border-top: 1px solid white;
+}
+
+table.yearbook td {
+text-align: center;
+padding: 8px;
+width: 30%;
+}
+
+table.yearbook img {
+margin-left: auto;
+padding: 5px;
+height: 100px;
+width: 100px;
+}
+
+table.yearbook p {
+padding: 2px;
+font-size: 10pt;
+font-weight: italic;
+}
+
+table.poster img {
+margin: auto;
+border: 2px solid white;
+padding:10px;
+height: 40%;
+width: 65%;
+}
+
+table.poster p {
+margin: auto;
+font-size: 11pt;
+font-weight: bold;
+padding: 2px;
+}
+
+img.icon {
+display:inline-block;
+padding: 10px;
+width: 20%;
+height: 10%;
+}
+
+div.iconcontainer {
+width: 95%;
+margin: auto;
+padding: 10px;
+border-top: 1px solid white;
+}
